@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Bebas Neue", cursive;
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+}
+
+.tittles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tittles p {
+  color: white;
+  margin: 0px;
+}
+.tittle1 {
+  font-size: 150px;
+}
+.tittle2 {
+  font-size: 75px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  gap: 300px;
+  margin-top: -100px;
+}
+
+.buttons a {
+  font-family: "Bebas Neue", cursive;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px 20px;
+  font-size: 40px;
+  border: none;
+  border-radius: 20px;
+  transition: 0.5s ease;
+  text-decoration: none;
+}
+
+.buttons a:hover {
+  background-color: white;
+  color: black;
+  transition: 0.5s ease;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.imgContainer img {
+  transition: 0.5s ease;
+}
+
+.imgContainer img:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s ease;
+}
+
+.footer p {
+  color: white;
+  margin: 20px;
+  font-size: 20px;
+}
+
+.imgContainer img {
+  width: 75px;
+  height: 75px;
+}
